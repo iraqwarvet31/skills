@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    color: #40514E;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}  
+
+a {
+    color: #11999E;
+    padding: 0 40px 0 40px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+h1 {
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+hr {
+    border-top: 5px dotted rgb(189, 186, 186);
+    width: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+p {
+    line-height: 2;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 15%;
+}
+
+.bottom-container {
+    padding-top: 35px;
+    padding-bottom: 1px;
+    margin-top: 50px;
+    background-color: #66BFBF;
+}
+
+.btn {
+    /* background: #11999E;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    line-height: 6; */
+    background-image: linear-gradient(#66bfbf 20%, #11999E);
+    border-radius: 8px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    position: relative;
+    top: 25px;
+}
+
+.btn:hover {
+    filter: brightness(1.2);
+}
+
+.copyright {
+    line-height: 4;
+    color: #fff;
+    font-size: 12px;
+}
+
+.middle-container {
+    padding: 50px 0 50px 0;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 11%;
+    top: 7%;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.profile {
+    width: 50%;
+    margin: 0 auto 0 auto;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.skill-web {
+    width: 400px;
+}
+
+.web-img {
+   width: 25%;
+   float: left;
+   margin-right: 30px;
+}
+
+.scuba-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+
